@@ -58,5 +58,9 @@ python3 setup.py install --root %{buildroot}
 
 
 %changelog
+* Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.11-1
+- Pyrogram Version updated to 1.1.11-1
+
+%changelog
 * Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.10-1
 - Initial package
