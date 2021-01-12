@@ -3,7 +3,7 @@
 
 
 Name:       python-%{modname}
-Version:    1.1.10
+Version:    1.1.11
 Release:    1%{?dist}
 Summary:    Telegram MTProto API Framework for Python
 License:    LGPLv3+
