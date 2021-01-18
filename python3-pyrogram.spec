@@ -3,7 +3,7 @@
 
 
 Name:       python-%{modname}
-Version:    1.1.12
+Version:    1.1.13
 Release:    1%{?dist}
 Summary:    Telegram MTProto API Framework for Python
 License:    LGPLv3+
@@ -25,7 +25,7 @@ Summary:        %{summary}
 
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3-devel         
-BuildRequires:  tox     
+BuildRequires:  python3-tox    
 
 Recommends: python3-tgcrypto
 
@@ -59,13 +59,18 @@ python3 setup.py install --root %{buildroot}
 
 
 %changelog
+
+* Tue Jan 19 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.13-1
+- Pyrogram Version updated to 1.1.13-1.
+
+
 * Fri Jan 15 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.12-1
-- Pyrogram Version updated to 1.1.12-1
+- Pyrogram Version updated to 1.1.12-1.
 
 
 * Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.11-1
-- Pyrogram Version updated to 1.1.11-1
+- Pyrogram Version updated to 1.1.11-1.
 
 
 * Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.10-1
-- Initial package
+- Initial package.
