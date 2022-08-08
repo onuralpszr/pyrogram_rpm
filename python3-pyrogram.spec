@@ -3,8 +3,8 @@
 
 
 Name:       python-%{modname}
-Version:    1.2.9
-Release:    1%{?dist}
+Version:    2.0.35
+Release:    %autorelease
 Summary:    Telegram MTProto API Framework for Python
 License:    LGPLv3+
 BuildArch:  noarch
@@ -59,29 +59,4 @@ python3 setup.py install --root %{buildroot}
 
 
 %changelog
-* Fri Apr 30 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.2.9-1
-- Pyrogram Version updated to 1.2.9
-
-* Wed Apr 7 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.2.8-1
-- Pyrogram Version updated to 1.2.8
-
-* Tue Apr 6 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.2.7-1
-- Pyrogram Version updated to 1.2.7
-
-* Thu Mar 25 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.2.4-1
-- Pyrogram Version updated to 1.2.4-1.
-
-* Tue Jan 19 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.13-1
-- Pyrogram Version updated to 1.1.13-1.
-
-
-* Fri Jan 15 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.12-1
-- Pyrogram Version updated to 1.1.12-1.
-
-
-* Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.11-1
-- Pyrogram Version updated to 1.1.11-1.
-
-
-* Tue Jan 12 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.1.10-1
-- Initial package.
+%autochangelog
