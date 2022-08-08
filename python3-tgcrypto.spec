@@ -2,8 +2,8 @@
 %global srcname TgCrypto
 
 Name:       python-%{modname}
-Version:    1.2.2
-Release:    1%{?dist}
+Version:    1.2.3
+Release:    %autorelease
 Summary:    Fast and Portable Telegram Crypto Library for Python
 License:    LGPLv3+
 URL:        https://pypi.python.org/pypi/TgCrypto
@@ -49,8 +49,5 @@ rm -rf tests/
 %{python3_sitearch}/%{modname}.*-linux-gnu.so
 %{python3_sitearch}/%{srcname}-*.egg-info/
 
-
-
 %changelog
-* Mon Jan 11 2021 Onuralp SEZER <thunderbirdtr@fedoraproject.org> - 1.2.2-1
-- Initial package
+%autochangelog
